@@ -1,0 +1,16 @@
+# UFW Firewall Rules
+
+Default incoming policy: deny
+Default outgoing policy: allow
+
+Allowed services:
+
+22/tcp SSH
+
+Commands used:
+
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow 22/tcp
+sudo ufw enable
+
